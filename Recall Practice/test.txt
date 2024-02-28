@@ -1,0 +1,23 @@
+
+------ js -----
+
+jquery -->data table, 
+
+high chart, d3 chart
+multiple checkbox in dropdown 
+
+
+----practice----
+
+1)menu bar with dropdown below and arrow animation
+2)create loader ->block background till loading 
+3)on toggle click change data representation just as gv occ dash with ajax call --> css to button
+4)create charts expand and shrink according to data in same div
+5)https://www.arcadia.com/solutions/solar-storage create grid like this link
+6)bootstrap --> grid system ,Carousel
+7)create dynamic grid with pagination
+8)do better designing (ref-> airbnb)
+9)learn gsap for animations 
+
+
+

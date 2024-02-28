@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+
+</head>
+<Link rel="stylesheet" href="./style.css" ></Link>
+<body>
+
+    <div class="container" id="container">
+
+        <div class="display" id="display">
+
+        </div>
+         <div class="buttons" id="buttons">
+
+            <div class="grid" id="grid">
+                <div class="fun" id="fun">
+                    <div class="funb" data-value="clear" onclick="cal(this.getAttribute('data-value'))">AC</div>
+                    <div class="funb" data-value="signChange" onclick="cal(this.getAttribute('data-value'))">+/-</div>
+                    <div class="funb" data-value="mod" onclick="cal(this.getAttribute('data-value'))">%</div>
+                </div>
+                <div class="ops com">
+                    <div class="opsb" id="opsb1" data-value="/" onclick="cal(this.getAttribute('data-value'))">/</div>
+                    <div class="opsb" id="opsb2" data-value="*" onclick="cal(this.getAttribute('data-value'))">*</div>
+                    <div class="opsb" id="opsb3" data-value="-" onclick="cal(this.getAttribute('data-value'))">-</div>
+                    <div class="opsb" id="opsb4" data-value="+" onclick="cal(this.getAttribute('data-value'))">+</div>
+                    <div class="opsb" id="opsb5" data-value="=" onclick="cal(this.getAttribute('data-value'))">=</div>
+                </div>
+                <div class="numpad com" id="numpad">
+                  
+                    <div class="num" id="num9" data-value="9" onclick="cal(this.getAttribute('data-value'))">9</div>
+                    <div class="num" id="num8" data-value="8" onclick="cal(this.getAttribute('data-value'))">8</div>
+                    <div class="num" id="num7" data-value="7" onclick="cal(this.getAttribute('data-value'))">7</div>
+                    <div class="num" id="num6" data-value="6" onclick="cal(this.getAttribute('data-value'))">6</div>
+                    <div class="num" id="num5" data-value="5" onclick="cal(this.getAttribute('data-value'))">5</div>
+                    <div class="num" id="num4" data-value="4" onclick="cal(this.getAttribute('data-value'))">4</div>
+                    <div class="num" id="num3" data-value="3" onclick="cal(this.getAttribute('data-value'))">3</div>
+                    <div class="num" id="num2" data-value="2" onclick="cal(this.getAttribute('data-value'))">2</div>
+                    <div class="num" id="num1" data-value="1" onclick="cal(this.getAttribute('data-value'))">1</div>
+                    <div class="num" id="num11" data-value="." onclick="cal(this.getAttribute('data-value'))">.</div>
+                    <div class="num" id="num0" data-value="0" onclick="cal(this.getAttribute('data-value'))">0</div>
+                </div>
+
+
+            </div>
+            <!-- <div class="ops" id="ops1">+</div>
+            <div class="ops" id="ops2">-</div>
+            <div class="ops" id="ops3">/</div>
+            <div class="ops" id="ops4">*</div> -->
+
+         </div>   
+
+    </div>
+    
+
+    
+
+
+
+</body>
+
+<script src="./script.js"></script>
+
+</html>

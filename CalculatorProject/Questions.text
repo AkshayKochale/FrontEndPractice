@@ -1,0 +1,30 @@
+Variable Types and Operators:
+Create a JavaScript program that declares variables of different types (string, number, boolean, array, object) and performs various operations on them, such as arithmetic operations, string concatenation, and boolean logic.
+
+Control Structures:
+Write a program that implements a basic calculator using functions and control structures (if statements or switch-case). It should prompt the user to enter two numbers and an operator (+, -, *, /), then display the result.
+
+Functions and Scopes:
+Create a program that calculates the factorial of a given number using a recursive function. Test the function with different input values and analyze the function scope.
+
+Arrays and Array Methods:
+Write a program that takes an array of numbers and returns the sum, average, maximum, and minimum values. Use array methods such as reduce(), forEach(), Math.max(), and Math.min().
+
+Objects and Object-oriented Programming:
+Implement a JavaScript class representing a car. Include properties such as make, model, year, and methods for starting the car, stopping the car, and honking the horn.
+
+DOM Manipulation and Events:
+Create a simple webpage with a button. Write JavaScript code to add an event listener to the button that changes the background color of the webpage when clicked.
+
+Asynchronous JavaScript and Promises:
+Write a program that fetches data from a REST API using fetch() and displays it on the webpage. Handle asynchronous operations using promises to ensure data is fetched successfully.
+
+Error Handling and Debugging:
+Create a program with intentional errors (e.g., syntax errors, runtime errors) and practice debugging it using browser developer tools (e.g., Chrome DevTools). Identify and fix the errors.
+
+ES6 Features:
+Refactor one of your previous assignments to use ES6 features such as arrow functions, template literals, destructuring, or classes.
+
+Project Assignment:
+Choose a small project to work on, such as a to-do list application, a weather app using an API, or a simple game. Plan, design, and implement the project using JavaScript, HTML, and CSS.
+
