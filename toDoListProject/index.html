@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDoProject</title>
+    <link rel="StyleSheet" href="./style.css" />
+  </head>
+  <body>
+
+  <nav>
+    <div class="title" id="title">
+      <i class="fa-solid fa-list-check"></i>
+      Todo Project
+    </div>
+  </nav>
+
+  <div class="toggle" id="toggle">
+    <div class="gridview viewicon" id="gridview" onclick="toggle(id)">
+      <i class="fa-solid fa-border-all"></i>
+    </div>
+    <div class="listview viewicon" id="listview" onclick="toggle(id)">
+      <i class="fa-solid fa-table-list"></i>
+    </div>
+  </div>
+  <main>
+    <div class="gridviewcontainer" id="gridviewcontainer">
+      <div class="box" id="addbox">
+        <div class="boxheading" id="addheading">ADD TASK</div>
+        <i class="fa-solid fa-square-plus addIcon" onclick="show()"></i>
+
+        <div class="addcontext" id="addcontext">
+        <input type="text" placeholder="write title.." class="gridtext" id="gridtext"/>
+        <textarea class="gridtextbox" placeholder="write down TASK.." id="gridtextbox" ></textarea>
+        <button class="create" onclick="addData()"> Create</button>
+      </div>
+      
+      </div>
+      <div class="box" id="pendingbox">
+        <div class="boxheading" id="pendingheading">PENDING</div>
+        <div class="pendingData" id="pendingData"></div>
+      </div>
+      <div class="box" id="completedbox">
+        <div class="boxheading" id="comheading">COMPLETED</div>
+        <div class="compData" id="compData"></div>
+      </div>
+    </div>
+
+    <div class="listviewcontainer" id="listviewcontainer">
+
+        <div class="list-box">  <div class="list-head fillTask" id="addheading" onclick="renderList(id)">ADD TASK</div>
+    </div>
+    <div class="list-box" id="list-box2">
+            <i class="fa-solid fa-square-plus addIconList" onclick="showContext()" id="addIconList"></i>    
+            <div class="list-Data" id="list-Data"></div>
+
+            <div class="addcontextList" id="addcontextList">
+              <input type="text" placeholder="write title.." class="addcontextList-gridtext" id="gridtext1"/>
+              <textarea class="addcontextList-gridtextbox" placeholder="write down TASK.." id="gridtextbox1" ></textarea>
+              <button class="addcontextList-create" onclick="addDataList()"> Create</button>
+              </div>
+
+        </div>
+        <div class="list-box"><div class="list-head fillpen" id="pendingheading" onclick="renderList(id)">PENDING</div></div>
+        <div class="list-box"><div class="list-head fillcom" id="comheading" onclick="renderList(id)">COMPLETED</div></div>
+    </div>
+  </main>
+
+</body>
+<script src="./script.js"></script>
+</html>
